@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  /* Background */
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f1f5f9;
+
+  /* Text */
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --text-white: #f8fafc;
+
+  /* Border */
+  --border-color: #e2e8f0;
+
+  /* Primary */
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+
+  /* Success */
+  --success: #22c55e;
+
+  /* Danger */
+  --danger-primary: #ef4444;
+  --danger-secondary: #ff8383;
+
+  /* Warning */
+  --warning: #f59e0b;
+
+  /* Shadows */
+  --shadow: rgba(15, 23, 42, 0.08);
+
+  /* Transition */
+  --transition: 0.25s ease;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+
+  /* Fonts */
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light;
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  max-width: 1000px;
+  min-height: 100vh;
+}
